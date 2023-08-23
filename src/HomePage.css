@@ -1,0 +1,39 @@
+.app__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black; /* Set the background color */
+    color: white;
+}
+  
+  .app__navbar-logo{
+    width: 500px;
+    height: auto;
+    color: white;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .app__navbar-links {
+    list-style: none;
+  display: flex;
+  gap: 20px;
+  }
+  
+  .app__navbar-links a {
+    text-decoration: none;
+  color: white;
+  }
+  
+  .background-image {
+    flex: 1;
+    background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+  }
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+  }
+  
